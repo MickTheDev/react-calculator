@@ -52,7 +52,7 @@ function App() {
 
   return (
     <div className="App">
-      <divv className="calculator">
+      <div className="calculator">
         <div className="display">
           {result ? <span>({result})</span> : ""}&nbsp;
           {calc || "0"}
@@ -74,7 +74,7 @@ function App() {
 
           <button onClick={() => calculate()}>=</button>
         </div>
-      </divv>
+      </div>
     </div>
   );
 }
